@@ -11,9 +11,9 @@
   --primary-white-color: #ffffff;
   --secondary-background-color: #2f303a;
   --third-background-color: #f5f4fa;
-  /* --white-color: #ffffff; */
   --black-color: #000000;
   --transparent-white-color: rgba(255, 255, 255, 0.6);
+  --curiousblue-color: #188ce8;
 }
 
 body {
@@ -52,7 +52,6 @@ body {
   color: var(--primary-text-color);
 }
 
-
 /*  Герой  */
 
 .hero {
@@ -70,7 +69,8 @@ body {
 
 /*  Qualities  */
 
-.qualities-list .title {
+.qualities-list .title,
+.works-list .title {
   color: var(--title-text-color);
 }
 
@@ -102,11 +102,28 @@ body {
 /*  Button  */
 
 .button {
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-white-color);
   color: var(--title-text-color);
+  cursor: pointer;
 }
 
 .button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--curiousblue-color);
+}
+
+/*  Портфоліо  */
+
+.button.portfolio {
+  background-color: var(--third-background-color);
+}
+.button.current,
+.button.portfolio:hover,
+.button.portfolio:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
