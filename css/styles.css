@@ -23,7 +23,7 @@ body {
 
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -104,17 +104,17 @@ body {
   text-transform: uppercase;
 }
 
-.qualities-list .text {
-  line-height: 1.71;
-}
-
 /*  Профіль  */
-.personnel-list .item {
+
+.team-bg {
+  background-color: var(--third-background-color);
+}
+.team-list .item {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.personnel-list .title {
+.team-list .title {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -132,8 +132,7 @@ body {
 .address {
   color: var(--primary-white-color);
 
-  font-style: normal;
-  line-height: 1.71;
+  font-style: inherit;
 }
 .address-contact .link {
   color: var(--transparent-white-color);
