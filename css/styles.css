@@ -30,9 +30,6 @@ body {
 .list {
   list-style: none;
 }
-.link {
-  text-decoration: none;
-}
 
 /* Логотип */
 
@@ -42,6 +39,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .header .logo-item {
   color: var(--black-color);
@@ -57,6 +55,7 @@ body {
 }
 .nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .nav .link.current {
@@ -65,6 +64,7 @@ body {
 
 .header-contact .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 /*  Герой  */
@@ -136,6 +136,7 @@ body {
 }
 .address-contact .link {
   color: var(--transparent-white-color);
+  text-decoration: none;
 }
 
 .link:hover,
