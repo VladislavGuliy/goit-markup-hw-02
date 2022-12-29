@@ -186,7 +186,9 @@ body {
 }
 
 /*  Роботи  */
-
+.works-list .link {
+  text-decoration: none;
+}
 .works-list .title {
   color: var(--title-text-color);
 
@@ -196,6 +198,8 @@ body {
   letter-spacing: 0.06em;
 }
 .works-list .text {
+  color: var(--primary-text-color);
+  
   font-size: 16px;
   line-height: 1.88;
 }
